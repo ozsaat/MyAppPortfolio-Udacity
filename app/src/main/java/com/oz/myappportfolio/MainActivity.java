@@ -24,15 +24,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button ubiquitousButton = (Button) findViewById(R.id.goUbiquitousButton);
         ubiquitousButton.setOnClickListener(this);
         Button capstoneButton = (Button) findViewById(R.id.capstoneButton);
-        capstoneButton.setOnClickListener(this);
-
-//        final Button moviesButton = (Button) findViewById(R.id.popularMoviesButton);
-//        moviesButton.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Toast.makeText(getApplicationContext(), "This button will launch my Popular Movies app", Toast.LENGTH_LONG).show();
-//            }
-//        });
 
     }
 
