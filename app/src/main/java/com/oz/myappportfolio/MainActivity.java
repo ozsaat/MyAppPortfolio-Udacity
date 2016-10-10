@@ -1,12 +1,12 @@
 package com.oz.myappportfolio;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener{
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button ubiquitousButton = (Button) findViewById(R.id.goUbiquitousButton);
         ubiquitousButton.setOnClickListener(this);
         Button capstoneButton = (Button) findViewById(R.id.capstoneButton);
-
+        capstoneButton.setOnClickListener(this);
     }
 
     @Override
@@ -58,8 +58,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             default:
                 break;
-
         }
-
     }
 }
